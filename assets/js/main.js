@@ -15,7 +15,6 @@ var app = new Vue({
 
   methods: {
     onChange: function(event) {
-      console.log(event.target.value);
       if (event.target.value == 'shang') {
         this.title = 'shang-chi and the Legend of the Ten Rings',
         this.year = '2021',
